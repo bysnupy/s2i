@@ -5,7 +5,7 @@ echo "Before assembling"
 rc=$?
 
 if [ $rc -eq 0 ]; then
-    echo "After successful assembling"
+    echo "After successful assembling $(pwd)"
 else
     echo "After failed assembling"
 fi
