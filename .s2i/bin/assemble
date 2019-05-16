@@ -1,5 +1,4 @@
 #!/bin/sh
 
 APP_VERSION=1.0
-yum install wget -y && yum clean all
 wget https://tomcat.apache.org/tomcat-7.0-doc/appdev/sample/sample.war -O /deployments/sameple.war
