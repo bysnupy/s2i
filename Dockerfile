@@ -1,1 +1,1 @@
-FROM registry.access.redhat.com/rhel8/go-toolset:latest
+FROM registry.redhat.io/rhel8/go-toolset:latest
